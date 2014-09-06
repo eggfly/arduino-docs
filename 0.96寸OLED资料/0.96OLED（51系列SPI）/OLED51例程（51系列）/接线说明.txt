@@ -1,0 +1,10 @@
+接线说明：
+ 
+   GND              地
+   VCC              3.3V或者5V
+   D0(LED_SCL)      P1^0
+   D1(LED_SDA)      P1^1
+   RST(LED_RST)     P1^2
+   DC(LED_DC)       P1^3
+   CS               若无需用到CS脚，可以不接，电路已经默认选中
+                     若用到CS脚，低电平有效

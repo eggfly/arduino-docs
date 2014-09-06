@@ -1,0 +1,10 @@
+接线说明：
+ 
+   GND              地
+   VCC              3.3V或者5V
+   D0(OLED_CLK)     10
+   D1(OLED_MOSI)    9
+   RST(OLED_RESET)  13
+   DC(OLED_DC)      11
+   CS（OLED_CS）    12（若无需用到CS脚，可以不接，电路已经默认选中
+                        若用到CS脚，低电平有效）

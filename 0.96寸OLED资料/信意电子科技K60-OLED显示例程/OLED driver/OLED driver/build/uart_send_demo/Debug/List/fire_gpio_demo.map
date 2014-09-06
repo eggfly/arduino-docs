@@ -1,0 +1,378 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.30.1.53127/W32 for ARM              14/Jun/2012  14:40:33 #
+# Copyright 2007-2011 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\work\飞思卡尔\K60 开发\k60\底层                       #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Exe #
+#                    \fire_gpio_demo.out                                      #
+#    Map file     =  E:\work\飞思卡尔\K60 开发\k60\底层                       #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Lis #
+#                    t\fire_gpio_demo.map                                     #
+#    Command line =  "E:\work\飞思卡尔\K60 开发\k60\底层                      #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \LED.o" "E:\work\飞思卡尔\K60 开发\k60\底层              #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \alloc.o" "E:\work\飞思卡尔\K60 开发\k60\底层            #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \arm_cm4.o" "E:\work\飞思卡尔\K60 开发\k60\底层          #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \assert.o" "E:\work\飞思卡尔\K60 开发\k60\底层           #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \crt0.o" "E:\work\飞思卡尔\K60 开发\k60\底层             #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \delay.o" "E:\work\飞思卡尔\K60 开发\k60\底层            #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \exti.o" "E:\work\飞思卡尔\K60 开发\k60\底层             #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \gpio.o" "E:\work\飞思卡尔\K60 开发\k60\底层             #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \io.o" "E:\work\飞思卡尔\K60 开发\k60\底层               #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \isr.o" "E:\work\飞思卡尔\K60 开发\k60\底层              #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \lptmr.o" "E:\work\飞思卡尔\K60 开发\k60\底层            #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \main.o" "E:\work\飞思卡尔\K60 开发\k60\底层             #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \mcg.o" "E:\work\飞思卡尔\K60 开发\k60\底层              #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \memtest.o" "E:\work\飞思卡尔\K60 开发\k60\底层          #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \printf.o" "E:\work\飞思卡尔\K60 开发\k60\底层           #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \queue.o" "E:\work\飞思卡尔\K60 开发\k60\底层            #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \start.o" "E:\work\飞思卡尔\K60 开发\k60\底层            #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \startup.o" "E:\work\飞思卡尔\K60 开发\k60\底层          #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \stdlib.o" "E:\work\飞思卡尔\K60 开发\k60\底层           #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \sysinit.o" "E:\work\飞思卡尔\K60 开发\k60\底层          #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \uart.o" "E:\work\飞思卡尔\K60 开发\k60\底层             #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \uif.o" "E:\work\飞思卡尔\K60 开发\k60\底层              #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \vectors.o" "E:\work\飞思卡尔\K60 开发\k60\底层          #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj #
+#                    \wdog.o" -o "E:\work\飞思卡尔\K60 开发\k60\底层          #
+#                    2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Exe #
+#                    \fire_gpio_demo.out" --map "E:\work\飞思卡尔\K60         #
+#                    开发\k60\底层 2.0\fire_Kinetis_代码V2.2\build\uart_send_ #
+#                    demo\Debug\List\fire_gpio_demo.map" --config             #
+#                    "E:\work\飞思卡尔\K60 开发\k60\底层                      #
+#                    2.0\fire_Kinetis_代码V2.2\build\config                   #
+#                    files\fire_RAM_K60N512.icf" --semihosting --entry        #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x1fff0000 { ro section .intvec };
+"A2":  place at 0x1fff0410 { ro section .noinit };
+"P1":  place in [from 0x1fff0000 to 0x20010000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0000 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x1fff0000   0x410  vectors.o [1]
+                              - 0x1fff0410   0x410
+
+"A2":                                         0x3c
+  .noinit              ro code  0x1fff0410    0x3c  crt0.o [1]
+                              - 0x1fff044c    0x3c
+
+"P1":                                       0x1af8
+  .text                ro code  0x1fff044c   0x55c  printf.o [1]
+  .text                ro code  0x1fff09a8    0x20  stdlib.o [1]
+  .text                ro code  0x1fff09c8   0x520  start.o [1]
+  .text                ro code  0x1fff0ee8    0x38  wdog.o [1]
+  .text                ro code  0x1fff0f20    0xc0  startup.o [1]
+  .text                ro code  0x1fff0fe0    0x5c  sysinit.o [1]
+  .text                ro code  0x1fff103c    0x58  main.o [1]
+  .text                ro code  0x1fff1094     0xc  arm_cm4.o [1]
+  .text                ro code  0x1fff10a0   0x2f4  mcg.o [1]
+  .text                ro code  0x1fff1394   0x24c  uart.o [1]
+  .text                ro code  0x1fff15e0    0x48  lptmr.o [1]
+  .text                ro code  0x1fff1628    0xc4  gpio.o [1]
+  .text                ro code  0x1fff16ec    0x20  assert.o [1]
+  .text                ro code  0x1fff170c    0xb4  LED.o [1]
+  .text                ro code  0x1fff17c0    0x24  delay.o [1]
+  .rodata              const    0x1fff17e4    0x58  gpio.o [1]
+  CodeRelocate                  0x1fff183c    0x50  <Block>
+    Initializer bytes  ro data  0x1fff183c    0x50  <for CodeRelocateRam-1>
+  .rodata              const    0x1fff188c    0x4c  assert.o [1]
+  .rodata              const    0x1fff18d8    0x48  start.o [1]
+  .data_init                    0x1fff1920    0x48  <Block>
+    Initializer bytes  ro data  0x1fff1920    0x48  <for .data-1>
+  .rodata              const    0x1fff1968    0x40  start.o [1]
+  .rodata              const    0x1fff19a8    0x30  main.o [1]
+  .rodata              const    0x1fff19d8    0x30  vectors.o [1]
+  .rodata              const    0x1fff1a08    0x2c  start.o [1]
+  .text                ro code  0x1fff1a34    0x2c  data_init3.o [4]
+  .rodata              const    0x1fff1a60    0x28  start.o [1]
+  .rodata              const    0x1fff1a88    0x28  start.o [1]
+  .text                ro code  0x1fff1ab0    0x22  zero_init3.o [4]
+  .iar.init_table      const    0x1fff1ad4    0x10  - Linker created -
+  .rodata              const    0x1fff1ae4    0x20  start.o [1]
+  .rodata              const    0x1fff1b04    0x20  start.o [1]
+  .rodata              const    0x1fff1b24    0x20  start.o [1]
+  .rodata              const    0x1fff1b44    0x20  start.o [1]
+  .rodata              const    0x1fff1b64    0x20  start.o [1]
+  .text                ro code  0x1fff1b84    0x20  vectors.o [1]
+  .rodata              const    0x1fff1ba4    0x1c  main.o [1]
+  .rodata              const    0x1fff1bc0    0x1c  start.o [1]
+  .rodata              const    0x1fff1bdc    0x1c  start.o [1]
+  .rodata              const    0x1fff1bf8    0x1c  start.o [1]
+  .rodata              const    0x1fff1c14    0x18  main.o [1]
+  .rodata              const    0x1fff1c2c    0x18  start.o [1]
+  .rodata              const    0x1fff1c44    0x18  start.o [1]
+  .rodata              const    0x1fff1c5c    0x18  start.o [1]
+  .rodata              const    0x1fff1c74    0x18  start.o [1]
+  .rodata              const    0x1fff1c8c    0x18  start.o [1]
+  .rodata              const    0x1fff1ca4    0x18  start.o [1]
+  .rodata              const    0x1fff1cbc    0x18  start.o [1]
+  .rodata              const    0x1fff1cd4    0x18  start.o [1]
+  .text                ro code  0x1fff1cec    0x16  cmain.o [4]
+  .text                ro code  0x1fff1d02     0x4  low_level_init.o [3]
+  .text                ro code  0x1fff1d06     0x4  exit.o [3]
+  .text                ro code  0x1fff1d0c     0xa  cexit.o [4]
+  .text                ro code  0x1fff1d18    0x14  exit.o [5]
+  .rodata              const    0x1fff1d2c    0x14  start.o [1]
+  .rodata              const    0x1fff1d40    0x14  start.o [1]
+  .rodata              const    0x1fff1d54    0x14  start.o [1]
+  .rodata              const    0x1fff1d68    0x14  start.o [1]
+  .rodata              const    0x1fff1d7c    0x14  start.o [1]
+  .rodata              const    0x1fff1d90    0x14  start.o [1]
+  .rodata              const    0x1fff1da4    0x14  start.o [1]
+  .rodata              const    0x1fff1db8    0x14  start.o [1]
+  .rodata              const    0x1fff1dcc    0x10  main.o [1]
+  .rodata              const    0x1fff1ddc    0x10  start.o [1]
+  .rodata              const    0x1fff1dec    0x10  start.o [1]
+  .rodata              const    0x1fff1dfc    0x10  start.o [1]
+  .rodata              const    0x1fff1e0c    0x10  start.o [1]
+  .rodata              const    0x1fff1e1c    0x10  start.o [1]
+  .rodata              const    0x1fff1e2c    0x10  start.o [1]
+  .rodata              const    0x1fff1e3c    0x10  start.o [1]
+  .rodata              const    0x1fff1e4c    0x10  start.o [1]
+  .rodata              const    0x1fff1e5c    0x10  start.o [1]
+  .rodata              const    0x1fff1e6c    0x10  start.o [1]
+  .rodata              const    0x1fff1e7c    0x10  start.o [1]
+  .rodata              const    0x1fff1e8c    0x10  start.o [1]
+  .rodata              const    0x1fff1e9c    0x10  start.o [1]
+  .text                ro code  0x1fff1eac    0x10  io.o [1]
+  .rodata              const    0x1fff1ebc     0xc  main.o [1]
+  .rodata              const    0x1fff1ec8     0xc  start.o [1]
+  .rodata              const    0x1fff1ed4     0xc  start.o [1]
+  .rodata              const    0x1fff1ee0     0xc  start.o [1]
+  .rodata              const    0x1fff1eec     0xc  start.o [1]
+  .text                ro code  0x1fff1ef8     0xc  cstartup_M.o [4]
+  .rodata              const    0x1fff1f04     0x8  start.o [1]
+  .rodata              const    0x1fff1f0c     0x8  start.o [1]
+  .rodata              const    0x1fff1f14     0x8  start.o [1]
+  .rodata              const    0x1fff1f1c     0x8  start.o [1]
+  .rodata              const    0x1fff1f24     0x8  start.o [1]
+  .rodata              const    0x1fff1f2c     0x8  start.o [1]
+  .rodata              const    0x1fff1f34     0x8  start.o [1]
+  .rodata              const    0x1fff1f3c     0x8  start.o [1]
+  .rodata              const    0x1fff1f44     0x0  bwt_init3c.o [4]
+                              - 0x1fff1f44  0x1af8
+
+"P2", part 1 of 2:                            0x98
+  CodeRelocateRam               0x1fff1f44    0x50  <Block>
+    CodeRelocateRam-1           0x1fff1f44    0x50  <Init block>
+      .textrw          inited   0x1fff1f44    0x50  mcg.o [1]
+  .data                         0x1fff1f94    0x48  <Block>
+    .data-1                     0x1fff1f94    0x48  <Init block>
+      .data            inited   0x1fff1f94    0x14  gpio.o [1]
+      .data            inited   0x1fff1fa8    0x14  gpio.o [1]
+      .data            inited   0x1fff1fbc     0x8  mcg.o [1]
+      .data            inited   0x1fff1fc4    0x18  uart.o [1]
+                              - 0x1fff1fdc    0x98
+
+"P2", part 2 of 2:                             0xc
+  .bss                          0x1fff1fdc     0xc  <Block>
+    .bss               zero     0x1fff1fdc     0x4  sysinit.o [1]
+    .bss               zero     0x1fff1fe0     0x4  sysinit.o [1]
+    .bss               zero     0x1fff1fe4     0x4  sysinit.o [1]
+                              - 0x1fff1fe8     0xc
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc:
+          0x1fff1fdc   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+E:\work\飞思卡尔\K60 开发\k60\底层 2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj: [1]
+    LED.o                 180
+    arm_cm4.o              12
+    assert.o               32                76
+    crt0.o                 60
+    delay.o                36
+    gpio.o                196               128       40
+    io.o                   16
+    lptmr.o                72
+    main.o                 88               128
+    mcg.o                 756       80       88        8
+    printf.o            1 372
+    start.o             1 312             1 176
+    startup.o             192
+    stdlib.o               32
+    sysinit.o              92                         12
+    uart.o                588                24       24
+    vectors.o              32             1 088
+    wdog.o                 56
+    ----------------------------------------------------
+    Total:              5 124       80    2 708       84
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [4]
+    bwt_init3c.o
+    cexit.o                10
+    cmain.o                22
+    cstartup_M.o           12
+    data_init3.o           44
+    zero_init3.o           34
+    ----------------------------------------------------
+    Total:                122
+
+shb_l.a: [5]
+    exit.o                 20
+    ----------------------------------------------------
+    Total:                 20
+
+    Gaps                    4                 2
+    Linker created                           16
+--------------------------------------------------------
+    Grand Total:        5 278       80    2 726       84
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff1fdc          --   Gb  - Linker created -
+.bss$$Limit             0x1fff1fe8          --   Gb  - Linker created -
+.data$$Base             0x1fff1f94          --   Gb  - Linker created -
+.data$$Limit            0x1fff1fdc          --   Gb  - Linker created -
+.data_init$$Base        0x1fff1920          --   Gb  - Linker created -
+.data_init$$Limit       0x1fff1968          --   Gb  - Linker created -
+?main                   0x1fff1ced         Code  Gb  cmain.o [4]
+ASSERT_FAILED_STR       0x1fff188c   0x4c  Data  Gb  assert.o [1]
+CodeRelocate$$Base      0x1fff183c          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x1fff188c          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff1f44          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff1f94          --   Gb  - Linker created -
+GPIOx                   0x1fff1f94   0x14  Data  Gb  gpio.o [1]
+LED_init                0x1fff170d   0x34  Code  Gb  LED.o [1]
+PORTX                   0x1fff1fa8   0x14  Data  Gb  gpio.o [1]
+Region$$Table$$Base     0x1fff1ad4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1fff1ae4          --   Gb  - Linker created -
+Reset_Handler           0x1fff0411         Code  Gb  crt0.o [1]
+UARTx                   0x1fff1fc4   0x18  Data  Gb  uart.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x1fff0000          --   Gb  command line/config [2]
+__cmain                 0x1fff1ced         Code  Gb  cmain.o [4]
+__code_start__ {Abs}    0x1fff0410          --   Gb  command line/config [2]
+__exit                  0x1fff1d19   0x14  Code  Gb  exit.o [5]
+__iar_SB                0x1fff1f44         Data  Gb  bwt_init3c.o [4]
+__iar_data_init3        0x1fff1a35   0x2c  Code  Gb  data_init3.o [4]
+__iar_program_start     0x1fff1ef9         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x1fff1ab1   0x22  Code  Gb  zero_init3.o [4]
+__low_level_init        0x1fff1d03    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x1fff0000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x1fff1cf9         Code  Gb  cmain.o [4]
+_exit                   0x1fff1d0d         Code  Gb  cexit.o [4]
+_main                   0x1fff1cff         Code  Gb  cmain.o [4]
+assert_failed           0x1fff16ed   0x20  Code  Gb  assert.o [1]
+bus_clk_khz             0x1fff1fe4    0x4  Data  Gb  sysinit.o [1]
+common_startup          0x1fff0f21   0xc0  Code  Gb  startup.o [1]
+core_clk_khz            0x1fff1fdc    0x4  Data  Gb  sysinit.o [1]
+core_clk_mhz            0x1fff1fe0    0x4  Data  Gb  sysinit.o [1]
+cpu_identify            0x1fff0af7  0x20a  Code  Gb  start.o [1]
+default_isr             0x1fff1b85   0x20  Code  Gb  vectors.o [1]
+delayms                 0x1fff17c1   0x1e  Code  Gb  delay.o [1]
+exit                    0x1fff1d07    0x4  Code  Gb  exit.o [3]
+flash_identify          0x1fff0d01   0xbe  Code  Gb  start.o [1]
+gpio_init               0x1fff1629   0xb8  Code  Gb  gpio.o [1]
+led                     0x1fff1741   0x1e  Code  Gb  LED.o [1]
+main                    0x1fff103d   0x58  Code  Gb  main.o [1]
+mcg_div                 0x1fff1fbc    0x8  Data  Gb  mcg.o [1]
+out_char                0x1fff1ead   0x10  Code  Gb  io.o [1]
+pll_init                0x1fff10a1  0x2f4  Code  Gb  mcg.o [1]
+printf                  0x1fff097f   0x26  Code  Gb  printf.o [1]
+printk                  0x1fff0575  0x40a  Code  Gb  printf.o [1]
+printk_mknumstr         0x1fff047f   0xaa  Code  Lc  printf.o [1]
+printk_pad_space        0x1fff054f   0x26  Code  Lc  printf.o [1]
+printk_pad_zero         0x1fff0529   0x26  Code  Lc  printf.o [1]
+printk_putc             0x1fff044d   0x32  Code  Lc  printf.o [1]
+set_sys_dividers        0x1fff1f45   0x50  Code  Gb  mcg.o [1]
+start                   0x1fff09c9  0x12e  Code  Gb  start.o [1]
+strlen                  0x1fff09a9   0x20  Code  Gb  stdlib.o [1]
+sysinit                 0x1fff0fe1   0x48  Code  Gb  sysinit.o [1]
+time_delay_ms           0x1fff15e1   0x38  Code  Gb  lptmr.o [1]
+uart_init               0x1fff1395  0x1ae  Code  Gb  uart.o [1]
+uart_putchar            0x1fff1543   0x1a  Code  Gb  uart.o [1]
+uart_sendN              0x1fff155d   0x22  Code  Gb  uart.o [1]
+uart_sendStr            0x1fff157f   0x1c  Code  Gb  uart.o [1]
+water_lights            0x1fff175f   0x5c  Code  Gb  LED.o [1]
+wdog_disable            0x1fff0ee9   0x16  Code  Gb  wdog.o [1]
+wdog_unlock             0x1fff0f01   0x16  Code  Gb  wdog.o [1]
+write_vtor              0x1fff1095    0x6  Code  Gb  arm_cm4.o [1]
+
+
+[1] = E:\work\飞思卡尔\K60 开发\k60\底层 2.0\fire_Kinetis_代码V2.2\build\uart_send_demo\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  5 278 bytes of readonly  code memory
+     80 bytes of readwrite code memory
+  2 726 bytes of readonly  data memory
+     84 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

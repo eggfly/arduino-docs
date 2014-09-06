@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>fire_demo/Debug</Project><Project>fire_gpio_demo/Debug</Project><Project>fire_led_demo/Debug</Project><Project>fire_uart_loop_demo/Debug</Project><Project>fire_uart_int_demo/Debug</Project><Project>fire_adc_demo/Debug</Project><Project>fire_exti_demo/Debug</Project><Project>fire_uart_send_demo/Debug</Project><Project>fire_lptmr_demo/Debug</Project><Project>fire_dac_demo/Debug</Project><Project>fire_Input_demo/Debug</Project><Project>fire_pwm_demo/Debug</Project><Project>fire_sd_demo/Debug</Project><Project>fire_pit_demo/Debug</Project><Project>fire_PWM_Input_PIT_demo/Debug</Project><Project>fire_i2c_demo/Debug</Project><Project>fire_dma_demo/Debug</Project><Project>fire_flash_demo/Debug</Project><Project>fire_cmsis_demo/Debug</Project><Project>fire_ucos_led_demo/Debug</Project></CurrentConfigs><CurrentProj>fire_uart_send_demo</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>249</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8621-25223</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/fire_lptmr_demo</ExpandedNode><ExpandedNode>&lt;ws&gt;/fire_uart_send_demo</ExpandedNode><ExpandedNode>&lt;ws&gt;/fire_uart_send_demo/app</ExpandedNode><ExpandedNode>fire_demo</ExpandedNode><ExpandedNode>fire_demo/app</ExpandedNode><ExpandedNode>fire_uart_send_demo</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12991-26369</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\projects\fire_uart_send_demo\main.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>926</SelStart><SelEnd>926</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\cpu\crt0.s</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>159</SelStart><SelEnd>159</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><ActiveTab>2</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00eef220><key>iaridepm.enu1</key></Toolbar-00eef220></Sizes></Row0><Row1><Sizes><Toolbar-0ab21de8><key>debuggergui.enu1</key></Toolbar-0ab21de8></Sizes></Row1><Row2><Sizes><Toolbar-0ab21eb0><key>armjlink.enu1</key></Toolbar-0ab21eb0></Sizes></Row2></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>448</Bottom><Right>323</Right><x>-2</x><y>-2</y><xscreen>98</xscreen><yscreen>195</yscreen><sizeHorzCX>71742</sizeHorzCX><sizeHorzCY>284257</sizeHorzCY><sizeVertCX>237921</sizeVertCX><sizeVertCY>655977</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>193</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>195</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>284257</sizeHorzCY><sizeVertCX>71742</sizeVertCX><sizeVertCY>284257</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

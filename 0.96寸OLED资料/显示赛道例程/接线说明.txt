@@ -1,0 +1,10 @@
+接线说明：
+ 
+   GND    地
+   VCC    3.3V或者5V         
+   D0     PORTA_PA0 宏为 LED_SCL
+   D1     PORTA_PA1 宏为 LED_SDA
+   RST    PORTA_PA2 宏为 LED_RST
+   DC     PORTA_PA3 宏为 LED_DC   
+   CS     若无需用到CS脚，可以不接，电路已经默认选中
+           若用到CS脚，低电平有效

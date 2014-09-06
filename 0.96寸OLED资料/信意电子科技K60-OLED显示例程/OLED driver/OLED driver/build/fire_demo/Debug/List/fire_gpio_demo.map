@@ -1,0 +1,466 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.30.1.53127/W32 for ARM              22/Jan/2014  15:47:18 #
+# Copyright 2007-2011 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ¿ #
+#                    ˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Exe\fi #
+#                    re_gpio_demo.out                                         #
+#    Map file     =  C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ¿ #
+#                    ˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\List\f #
+#                    ire_gpio_demo.map                                        #
+#    Command line =  "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\B #
+#                    SP.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OL #
+#                    EDœ‘ æ¿˝≥Ã\OLED driver\OLED                              #
+#                    driver\build\fire_demo\Debug\Obj\LED.o"                  #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\O #
+#                    LED.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-O #
+#                    LEDœ‘ æ¿˝≥Ã\OLED driver\OLED                             #
+#                    driver\build\fire_demo\Debug\Obj\alloc.o"                #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\a #
+#                    pp.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OL #
+#                    EDœ‘ æ¿˝≥Ã\OLED driver\OLED                              #
+#                    driver\build\fire_demo\Debug\Obj\app_hooks.o"            #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\a #
+#                    rm_cm4.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK6 #
+#                    0-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                          #
+#                    driver\build\fire_demo\Debug\Obj\assert.o"               #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\c #
+#                    rt0.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-O #
+#                    LEDœ‘ æ¿˝≥Ã\OLED driver\OLED                             #
+#                    driver\build\fire_demo\Debug\Obj\delay.o"                #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\g #
+#                    pio.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-O #
+#                    LEDœ‘ æ¿˝≥Ã\OLED driver\OLED                             #
+#                    driver\build\fire_demo\Debug\Obj\io.o"                   #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\i #
+#                    sr.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OL #
+#                    EDœ‘ æ¿˝≥Ã\OLED driver\OLED                              #
+#                    driver\build\fire_demo\Debug\Obj\lptmr.o"                #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\m #
+#                    ain.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-O #
+#                    LEDœ‘ æ¿˝≥Ã\OLED driver\OLED                             #
+#                    driver\build\fire_demo\Debug\Obj\mcg.o"                  #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\m #
+#                    emtest.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK6 #
+#                    0-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                          #
+#                    driver\build\fire_demo\Debug\Obj\os_core.o"              #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\o #
+#                    s_cpu_a.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK #
+#                    60-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                         #
+#                    driver\build\fire_demo\Debug\Obj\os_cpu_c.o"             #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\o #
+#                    s_dbg.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60 #
+#                    -OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                           #
+#                    driver\build\fire_demo\Debug\Obj\os_flag.o"              #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\o #
+#                    s_mbox.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK6 #
+#                    0-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                          #
+#                    driver\build\fire_demo\Debug\Obj\os_mem.o"               #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\o #
+#                    s_mutex.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK #
+#                    60-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                         #
+#                    driver\build\fire_demo\Debug\Obj\os_q.o"                 #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\o #
+#                    s_sem.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60 #
+#                    -OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                           #
+#                    driver\build\fire_demo\Debug\Obj\os_task.o"              #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\o #
+#                    s_time.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK6 #
+#                    0-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                          #
+#                    driver\build\fire_demo\Debug\Obj\os_tmr.o"               #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\p #
+#                    rintf.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60 #
+#                    -OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                           #
+#                    driver\build\fire_demo\Debug\Obj\queue.o"                #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\s #
+#                    tart.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60- #
+#                    OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                            #
+#                    driver\build\fire_demo\Debug\Obj\startup.o"              #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\s #
+#                    tdlib.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60 #
+#                    -OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                           #
+#                    driver\build\fire_demo\Debug\Obj\sysinit.o"              #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\u #
+#                    art.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-O #
+#                    LEDœ‘ æ¿˝≥Ã\OLED driver\OLED                             #
+#                    driver\build\fire_demo\Debug\Obj\uif.o"                  #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj\v #
+#                    ectors.o" "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK6 #
+#                    0-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                          #
+#                    driver\build\fire_demo\Debug\Obj\wdog.o"                 #
+#                    "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ #
+#                    ¿˝≥Ã\OLED driver\OLED driver\src\LIB\CMSIS\iar_cortexM4l #
+#                    _math.a" -o "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ºº #
+#                    K60-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                        #
+#                    driver\build\fire_demo\Debug\Exe\fire_gpio_demo.out"     #
+#                    --map "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OL #
+#                    EDœ‘ æ¿˝≥Ã\OLED driver\OLED                              #
+#                    driver\build\fire_demo\Debug\List\fire_gpio_demo.map"    #
+#                    --config "C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60 #
+#                    -OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED                           #
+#                    driver\build\fire_demo\..\..\build\config                #
+#                    files\fire_ROM_K60N512.icf" --semihosting --entry        #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A2":                                         0x3c
+  .noinit              ro code  0x00000410    0x3c  crt0.o [1]
+                              - 0x0000044c    0x3c
+
+"P1":                                       0x2208
+  .text                ro code  0x0000044c   0x55c  printf.o [1]
+  .text                ro code  0x000009a8    0x20  stdlib.o [1]
+  .text                ro code  0x000009c8   0x520  start.o [1]
+  .text                ro code  0x00000ee8    0x38  wdog.o [1]
+  .text                ro code  0x00000f20    0xc0  startup.o [1]
+  .text                ro code  0x00000fe0    0x5c  sysinit.o [1]
+  .text                ro code  0x0000103c    0x34  main.o [1]
+  .text                ro code  0x00001070     0xc  arm_cm4.o [1]
+  Veneer               ro code  0x0000107c     0x8  - Linker created -
+  .text                ro code  0x00001084   0x2f4  mcg.o [1]
+  .text                ro code  0x00001378   0x20c  uart.o [1]
+  .text                ro code  0x00001584   0x4dc  OLED.o [1]
+  .text                ro code  0x00001a60   0x120  gpio.o [1]
+  .text                ro code  0x00001b80    0x20  assert.o [1]
+  .text                ro code  0x00001ba0    0xb4  LED.o [1]
+  .text                ro code  0x00001c54    0x28  delay.o [1]
+  .rodata              const    0x00001c7c   0x228  OLED.o [1]
+  .rodata              const    0x00001ea4    0xa8  OLED.o [1]
+  CodeRelocate                  0x00001f4c    0x50  <Block>
+    Initializer bytes  ro data  0x00001f4c    0x50  <for CodeRelocateRam-1>
+  .rodata              const    0x00001f9c    0x4c  assert.o [1]
+  .rodata              const    0x00001fe8    0x48  start.o [1]
+  .data_init                    0x00002030    0x48  <Block>
+    Initializer bytes  ro data  0x00002030    0x48  <for .data-1>
+  .rodata              const    0x00002078    0x40  gpio.o [1]
+  .rodata              const    0x000020b8    0x40  start.o [1]
+  .rodata              const    0x000020f8    0x30  vectors.o [1]
+  .rodata              const    0x00002128    0x2c  start.o [1]
+  .text                ro code  0x00002154    0x2c  data_init3.o [5]
+  .rodata              const    0x00002180    0x28  start.o [1]
+  .rodata              const    0x000021a8    0x28  start.o [1]
+  .text                ro code  0x000021d0    0x22  zero_init3.o [5]
+  .iar.init_table      const    0x000021f4    0x10  - Linker created -
+  .rodata              const    0x00002204    0x20  start.o [1]
+  .rodata              const    0x00002224    0x20  start.o [1]
+  .rodata              const    0x00002244    0x20  start.o [1]
+  .rodata              const    0x00002264    0x20  start.o [1]
+  .rodata              const    0x00002284    0x20  start.o [1]
+  .text                ro code  0x000022a4    0x20  vectors.o [1]
+  .rodata              const    0x000022c4    0x1c  start.o [1]
+  .rodata              const    0x000022e0    0x1c  start.o [1]
+  .rodata              const    0x000022fc    0x1c  start.o [1]
+  .rodata              const    0x00002318    0x18  main.o [1]
+  .rodata              const    0x00002330    0x18  start.o [1]
+  .rodata              const    0x00002348    0x18  start.o [1]
+  .rodata              const    0x00002360    0x18  start.o [1]
+  .rodata              const    0x00002378    0x18  start.o [1]
+  .rodata              const    0x00002390    0x18  start.o [1]
+  .rodata              const    0x000023a8    0x18  start.o [1]
+  .rodata              const    0x000023c0    0x18  start.o [1]
+  .rodata              const    0x000023d8    0x18  start.o [1]
+  .text                ro code  0x000023f0    0x16  cmain.o [5]
+  .text                ro code  0x00002406     0x4  low_level_init.o [3]
+  .text                ro code  0x0000240a     0x4  exit.o [3]
+  .text                ro code  0x00002410     0xa  cexit.o [5]
+  .text                ro code  0x0000241c    0x14  exit.o [6]
+  .rodata              const    0x00002430    0x14  start.o [1]
+  .rodata              const    0x00002444    0x14  start.o [1]
+  .rodata              const    0x00002458    0x14  start.o [1]
+  .rodata              const    0x0000246c    0x14  start.o [1]
+  .rodata              const    0x00002480    0x14  start.o [1]
+  .rodata              const    0x00002494    0x14  start.o [1]
+  .rodata              const    0x000024a8    0x14  start.o [1]
+  .rodata              const    0x000024bc    0x14  start.o [1]
+  .rodata              const    0x000024d0    0x10  OLED.o [1]
+  .rodata              const    0x000024e0    0x10  main.o [1]
+  .rodata              const    0x000024f0    0x10  start.o [1]
+  .rodata              const    0x00002500    0x10  start.o [1]
+  .rodata              const    0x00002510    0x10  start.o [1]
+  .rodata              const    0x00002520    0x10  start.o [1]
+  .rodata              const    0x00002530    0x10  start.o [1]
+  .rodata              const    0x00002540    0x10  start.o [1]
+  .rodata              const    0x00002550    0x10  start.o [1]
+  .rodata              const    0x00002560    0x10  start.o [1]
+  .rodata              const    0x00002570    0x10  start.o [1]
+  .rodata              const    0x00002580    0x10  start.o [1]
+  .rodata              const    0x00002590    0x10  start.o [1]
+  .rodata              const    0x000025a0    0x10  start.o [1]
+  .rodata              const    0x000025b0    0x10  start.o [1]
+  .text                ro code  0x000025c0    0x10  io.o [1]
+  .rodata              const    0x000025d0     0xc  start.o [1]
+  .rodata              const    0x000025dc     0xc  start.o [1]
+  .rodata              const    0x000025e8     0xc  start.o [1]
+  .rodata              const    0x000025f4     0xc  start.o [1]
+  .text                ro code  0x00002600     0xc  cstartup_M.o [5]
+  .rodata              const    0x0000260c     0x8  main.o [1]
+  .rodata              const    0x00002614     0x8  start.o [1]
+  .rodata              const    0x0000261c     0x8  start.o [1]
+  .rodata              const    0x00002624     0x8  start.o [1]
+  .rodata              const    0x0000262c     0x8  start.o [1]
+  .rodata              const    0x00002634     0x8  start.o [1]
+  .rodata              const    0x0000263c     0x8  start.o [1]
+  .rodata              const    0x00002644     0x8  start.o [1]
+  .rodata              const    0x0000264c     0x8  start.o [1]
+  .rodata              const    0x00002654     0x0  bwt_init3c.o [5]
+                              - 0x00002654  0x2208
+
+"P2", part 1 of 2:                            0x98
+  CodeRelocateRam               0x1fff0410    0x50  <Block>
+    CodeRelocateRam-1           0x1fff0410    0x50  <Init block>
+      .textrw          inited   0x1fff0410    0x50  mcg.o [1]
+  .data                         0x1fff0460    0x48  <Block>
+    .data-1                     0x1fff0460    0x48  <Init block>
+      .data            inited   0x1fff0460    0x14  gpio.o [1]
+      .data            inited   0x1fff0474    0x14  gpio.o [1]
+      .data            inited   0x1fff0488     0x8  mcg.o [1]
+      .data            inited   0x1fff0490    0x18  uart.o [1]
+                              - 0x1fff04a8    0x98
+
+"P2", part 2 of 2:                             0xc
+  .bss                          0x1fff04a8     0xc  <Block>
+    .bss               zero     0x1fff04a8     0x4  sysinit.o [1]
+    .bss               zero     0x1fff04ac     0x4  sysinit.o [1]
+    .bss               zero     0x1fff04b0     0x4  sysinit.o [1]
+                              - 0x1fff04b4     0xc
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc:
+          0x1fff04a8   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj: [1]
+    LED.o                 180
+    OLED.o              1 244               736
+    arm_cm4.o              12
+    assert.o               32                76
+    crt0.o                 60
+    delay.o                40
+    gpio.o                288               104       40
+    io.o                   16
+    main.o                 52                48
+    mcg.o                 756       80       88        8
+    printf.o            1 372
+    start.o             1 312             1 176
+    startup.o             192
+    stdlib.o               32
+    sysinit.o              92                         12
+    uart.o                524                24       24
+    vectors.o              32             1 088
+    wdog.o                 56
+    ----------------------------------------------------
+    Total:              6 292       80    3 340       84
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                  8
+
+m7M_tl.a: [4]
+    ----------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    bwt_init3c.o
+    cexit.o                10
+    cmain.o                22
+    cstartup_M.o           12
+    data_init3.o           44
+    zero_init3.o           34
+    ----------------------------------------------------
+    Total:                122
+
+shb_l.a: [6]
+    exit.o                 20
+    ----------------------------------------------------
+    Total:                 20
+
+    Gaps                    4                 2
+    Linker created          8                16
+--------------------------------------------------------
+    Grand Total:        6 454       80    3 358       84
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff04a8          --   Gb  - Linker created -
+.bss$$Limit             0x1fff04b4          --   Gb  - Linker created -
+.data$$Base             0x1fff0460          --   Gb  - Linker created -
+.data$$Limit            0x1fff04a8          --   Gb  - Linker created -
+.data_init$$Base        0x00002030          --   Gb  - Linker created -
+.data_init$$Limit       0x00002078          --   Gb  - Linker created -
+?main                   0x000023f1         Code  Gb  cmain.o [5]
+ASSERT_FAILED_STR       0x00001f9c   0x4c  Data  Gb  assert.o [1]
+CodeRelocate$$Base      0x00001f4c          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00001f9c          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0410          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff0460          --   Gb  - Linker created -
+F14x16                  0x00001ea4   0xa8  Data  Gb  OLED.o [1]
+F14x16_Idx              0x000024d0   0x10  Data  Gb  OLED.o [1]
+F6x8                    0x00001c7c  0x228  Data  Gb  OLED.o [1]
+GPIOx                   0x1fff0460   0x14  Data  Gb  gpio.o [1]
+LEDPIN_Init             0x00001585   0x34  Code  Gb  OLED.o [1]
+LED_DLY_ms              0x000016d7   0x1a  Code  Gb  OLED.o [1]
+LED_Fill                0x00001697   0x40  Code  Gb  OLED.o [1]
+LED_Init                0x00001809   0x9a  Code  Gb  OLED.o [1]
+LED_P14x16Str           0x0000191f  0x136  Code  Gb  OLED.o [1]
+LED_P6x8Str             0x000018a3   0x7c  Code  Gb  OLED.o [1]
+LED_Set_Pos             0x0000166f   0x28  Code  Gb  OLED.o [1]
+LED_WrCmd               0x00001615   0x5a  Code  Gb  OLED.o [1]
+LED_WrDat               0x000015b9   0x5a  Code  Gb  OLED.o [1]
+LED_init                0x00001ba1   0x34  Code  Gb  LED.o [1]
+PORTX                   0x1fff0474   0x14  Data  Gb  gpio.o [1]
+Region$$Table$$Base     0x000021f4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00002204          --   Gb  - Linker created -
+Reset_Handler           0x00000411         Code  Gb  crt0.o [1]
+SetAddressingMode       0x000016f1   0x14  Code  Gb  OLED.o [1]
+SetContrastControl      0x00001715   0x14  Code  Gb  OLED.o [1]
+SetStartLine            0x00001705   0x10  Code  Gb  OLED.o [1]
+Set_Charge_Pump         0x00001729   0x16  Code  Gb  OLED.o [1]
+Set_Common_Config       0x000017df   0x16  Code  Gb  OLED.o [1]
+Set_Common_Remap        0x00001793   0x10  Code  Gb  OLED.o [1]
+Set_Display_Clock       0x000017b7   0x14  Code  Gb  OLED.o [1]
+Set_Display_Offset      0x000017a3   0x14  Code  Gb  OLED.o [1]
+Set_Display_On_Off      0x00001783   0x10  Code  Gb  OLED.o [1]
+Set_Entire_Display      0x0000174f   0x10  Code  Gb  OLED.o [1]
+Set_Inverse_Display     0x0000175f   0x10  Code  Gb  OLED.o [1]
+Set_Multiplex_Ratio     0x0000176f   0x14  Code  Gb  OLED.o [1]
+Set_Precharge_Period    0x000017cb   0x14  Code  Gb  OLED.o [1]
+Set_Segment_Remap       0x0000173f   0x10  Code  Gb  OLED.o [1]
+Set_VCOMH               0x000017f5   0x14  Code  Gb  OLED.o [1]
+UARTx                   0x1fff0490   0x18  Data  Gb  uart.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__cmain                 0x000023f1         Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410          --   Gb  command line/config [2]
+__exit                  0x0000241d   0x14  Code  Gb  exit.o [6]
+__iar_SB                0x00002654         Data  Gb  bwt_init3c.o [5]
+__iar_data_init3        0x00002155   0x2c  Code  Gb  data_init3.o [5]
+__iar_program_start     0x00002601         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x000021d1   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00002407    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x000023fd         Code  Gb  cmain.o [5]
+_exit                   0x00002411         Code  Gb  cexit.o [5]
+_main                   0x00002403         Code  Gb  cmain.o [5]
+assert_failed           0x00001b81   0x20  Code  Gb  assert.o [1]
+bus_clk_khz             0x1fff04b0    0x4  Data  Gb  sysinit.o [1]
+common_startup          0x00000f21   0xc0  Code  Gb  startup.o [1]
+core_clk_khz            0x1fff04a8    0x4  Data  Gb  sysinit.o [1]
+core_clk_mhz            0x1fff04ac    0x4  Data  Gb  sysinit.o [1]
+cpu_identify            0x00000af7  0x20a  Code  Gb  start.o [1]
+default_isr             0x000022a5   0x20  Code  Gb  vectors.o [1]
+delayms                 0x00001c55   0x22  Code  Gb  delay.o [1]
+exit                    0x0000240b    0x4  Code  Gb  exit.o [3]
+flash_identify          0x00000d01   0xbe  Code  Gb  start.o [1]
+gpio_init               0x00001a61   0xb8  Code  Gb  gpio.o [1]
+gpio_set                0x00001b19   0x5a  Code  Gb  gpio.o [1]
+led                     0x00001bd5   0x1e  Code  Gb  LED.o [1]
+main                    0x0000103d   0x34  Code  Gb  main.o [1]
+mcg_div                 0x1fff0488    0x8  Data  Gb  mcg.o [1]
+out_char                0x000025c1   0x10  Code  Gb  io.o [1]
+pll_init                0x00001085  0x2f4  Code  Gb  mcg.o [1]
+printf                  0x0000097f   0x26  Code  Gb  printf.o [1]
+printk                  0x00000575  0x40a  Code  Gb  printf.o [1]
+printk_mknumstr         0x0000047f   0xaa  Code  Lc  printf.o [1]
+printk_pad_space        0x0000054f   0x26  Code  Lc  printf.o [1]
+printk_pad_zero         0x00000529   0x26  Code  Lc  printf.o [1]
+printk_putc             0x0000044d   0x32  Code  Lc  printf.o [1]
+set_sys_dividers        0x1fff0411   0x50  Code  Gb  mcg.o [1]
+start                   0x000009c9  0x12e  Code  Gb  start.o [1]
+strlen                  0x000009a9   0x20  Code  Gb  stdlib.o [1]
+sysinit                 0x00000fe1   0x48  Code  Gb  sysinit.o [1]
+uart_init               0x00001379  0x1ae  Code  Gb  uart.o [1]
+uart_putchar            0x00001527   0x1a  Code  Gb  uart.o [1]
+water_lights            0x00001bf3   0x5c  Code  Gb  LED.o [1]
+wdog_disable            0x00000ee9   0x16  Code  Gb  wdog.o [1]
+wdog_unlock             0x00000f01   0x16  Code  Gb  wdog.o [1]
+write_vtor              0x00001071    0x6  Code  Gb  arm_cm4.o [1]
+
+
+[1] = C:\Users\Administrator\Desktop\–≈“‚µÁ◊”ø∆ººK60-OLEDœ‘ æ¿˝≥Ã\OLED driver\OLED driver\build\fire_demo\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  6 454 bytes of readonly  code memory
+     80 bytes of readwrite code memory
+  3 358 bytes of readonly  data memory
+     84 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

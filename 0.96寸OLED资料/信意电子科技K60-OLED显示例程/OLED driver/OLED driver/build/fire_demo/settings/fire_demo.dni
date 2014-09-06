@@ -1,0 +1,133 @@
+[DebugChecksum]
+Checksum=-331566373
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=6000000
+JtagSpeed=6000000
+Prescaler=12
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[array_types]
+Fmt0=unsigned char[50]	2	0
+Fmt1=unsigned char[5]	2	0
+[watch_formats]
+Fmt0={W}42:G_distortion_repair_ratio	0	7
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Setup0=0 1 0 500 2 0 4 0 0
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=ITM1
+Setup0=1 1 1 1
+Title1=ITM2
+Setup1=1 1 1 1
+Title2=ITM3
+Setup2=1 1 1 1
+Title3=ITM4
+Setup3=1 1 1 1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\fire_Kinetis底层 2.9 rubber 新算法}.698.17" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\fire_Kinetis底层 2.9 rubber 新算法}.698.17" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "E:\work\飞思卡尔\K60 开发\k60\底层 2.0\fire_Kinetis_代码V2.2\src\cpu\crt0.s" ""
+A1=_ "E:\work\飞思卡尔\K60 开发文件\底层 2.0\fire_Kinetis底层 2.9.12rubber 十字双算法\src\drivers\PIC_DEAL\PIC_DEAL.c" ""
+A2=_ "E:\work\飞思卡尔\K60 开发文件\底层 2.0\fire_Kinetis底层 2.9.12rubber 新算点牵解决十字 - 副本\src\drivers\PIC_DEAL\PIC_DEAL.c" ""
+A3=_ "E:\work\飞思卡尔\正式试用版\OLED driver\src\app\main.c" ""
+A4=_ "E:\work\飞思卡尔\正式试用版\OLED driver\src\common\printf.c" ""
+A5=_ "E:\work\飞思卡尔\正式试用版\OLED driver\src\common\startup.c" ""
+A6=_ "E:\work\飞思卡尔\正式试用版\OLED driver\src\cpu\arm_cm4.c" ""
+A7=_ "E:\work\飞思卡尔\正式试用版\OLED driver\src\cpu\sysinit.c" ""
+A8=_ "E:\work\飞思卡尔\正式试用版\OLED driver\src\drivers\mcg\mcg.c" ""
+Count=9
+SuppressDialog=0

@@ -1,0 +1,26 @@
+接线说明：
+ 
+    GND          地
+    VCC          3.3V或者5V
+
+    D0：      
+   OLED_SCLK_Clr() GPIO_ResetBits(GPIOC,GPIO_Pin_0)
+   OLED_SCLK_Set() GPIO_SetBits(GPIOC,GPIO_Pin_0)
+
+    D1：
+   OLED_SDIN_Clr() GPIO_ResetBits(GPIOC,GPIO_Pin_1)
+   OLED_SDIN_Set() GPIO_SetBits(GPIOC,GPIO_Pin_1)
+
+    RST：
+   OLED_RST_Clr() GPIO_ResetBits(GPIOG,GPIO_Pin_15)
+   OLED_RST_Set() GPIO_SetBits(GPIOG,GPIO_Pin_15)
+
+    DC：
+   OLED_RS_Clr() GPIO_ResetBits(GPIOD,GPIO_Pin_3)
+   OLED_RS_Set() GPIO_SetBits(GPIOD,GPIO_Pin_3)
+
+    CS：  
+   OLED_CS_Clr()  GPIO_ResetBits(GPIOD,GPIO_Pin_6)
+   OLED_CS_Set()  GPIO_SetBits(GPIOD,GPIO_Pin_6)
+若无需用到CS脚，可以不接，电路已经默认选中，若用到CS脚，低电平有效
+
